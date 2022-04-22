@@ -1,0 +1,9 @@
+# Plantuml requirements
+pydot==1.4.1
+graphviz==0.10.1
+
+# Sphinx and pluggins
+sphinx==2.0.1
+sphinx_rtd_theme==0.4.3
+sphinxcontrib-plantuml==0.14
+sphinxcontrib-httpdomain==1.7.0
