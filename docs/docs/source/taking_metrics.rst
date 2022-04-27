@@ -121,6 +121,3 @@ scraped time series which serve to identify the scraped target:
 
     * job: The configured job name that the target belongs to.
     * instance: The <host>:<port> part of the target's URL that was scraped.
-    
-    
-  python manage.py set_sync_marks CirclEnrichmentRecentlyUpdated --date 2021-05-03T5:21:00

@@ -14,6 +14,6 @@ WORKDIR /opt/docs
 
 # Getting the plantuml binary
 RUN mkdir -p /bin \
-    && wget http://sourceforge.net/projects/plantuml/files/plantuml.jar/download -O /bin/plantuml.jar
+    && wget https://github.com/plantuml/plantuml/releases/download/v1.2022.4/plantuml-1.2022.4.jar -O /bin/plantuml.jar
 
 CMD ["sphinx"]

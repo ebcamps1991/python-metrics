@@ -61,7 +61,7 @@ async def do_crawl(site: str):
 
     :param str site: url to the site to be crawled
     """
-    site = config.CRAWL_SITES[randint(0, len(config.CRAWL_SITES) - 1)]
+    site = config.crawl_sites[randint(0, len(config.crawl_sites) - 1)]
     logger.info(f'Working on crawling {site}')
     await asyncio.sleep(randint(1, 7))
 
