@@ -10,6 +10,8 @@ Please, follow the next steps for building the docs and read it.
   * ``docker-compose run docs make html``
 * Run the docs web server to access it throw your browser:
   * ``docker-compose up docs``
+  
+* Go to http://localhost:8000/build/html/
 
 Build stack to see some metrics and logs.
 
@@ -20,5 +22,3 @@ Build stack to see some metrics and logs.
  * Add Loki as data source.
  * Go to explore, select Loki as data source and add some query ({job="containerlogs", container_name="the name of container"})
  * Update in Run query options the time line.
-       
-         

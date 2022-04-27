@@ -7,3 +7,5 @@ sphinx==2.0.1
 sphinx_rtd_theme==0.4.3
 sphinxcontrib-plantuml==0.14
 sphinxcontrib-httpdomain==1.7.0
+mkdocs==1.2.3
+jinja2==3.0.0
